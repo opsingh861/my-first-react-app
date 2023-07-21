@@ -1,21 +1,15 @@
 import './App.css';
+import ClassComponents from './components/ClassComponents';
+import FunctionalComponents from './components/FunctionalComponents';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Class Component</h1>
+      <ClassComponents />
+      <br />
+      <h1>Functional Components</h1>
+      <FunctionalComponents />
     </div>
   );
 }
